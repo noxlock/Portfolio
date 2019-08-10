@@ -1,0 +1,99 @@
+
+/* NAVBAR CSS */
+
+.navbar {
+    max-height: 80px;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+#selected-heading {
+    font-weight: bold;
+}
+
+.navbar a:active {
+    outline: 0 !important;
+}
+
+
+/* TEXT CSS */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+/* ABOUT/LEFT SIDE CSS */
+
+
+article {
+    float: left;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+
+
+
+/* LANGUAGES/RIGHT SIDE CSS */
+
+
+
+
+
+/* ICON CSS */
+
+.fa {
+    font-size: 30px;
+    color: white;
+
+}
+
+
+/* FOOTER CSS */
+
+footer {
+    text-align: center;
+    height: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+}
+
+.container {
+    background-color: black;
+}
+
+#footer-text {
+    font-size: 17px;
+}
+
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}

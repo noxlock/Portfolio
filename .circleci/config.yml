@@ -7,7 +7,7 @@ jobs:
         steps:
             - run:
                   name: Install Dependencies
-                  command: npm install firebase
+                  command: npm install
             - run:
                   name: Build
                   command: npm build

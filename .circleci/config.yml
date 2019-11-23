@@ -7,18 +7,18 @@ jobs:
         steps:
         - checkout 
         - restore_cache:
-          key: dependency-cache-{{ checksum "package-lock.json" }}
-            - run:
-                  name: Install Dependencies
-                  command: npm install
+            key: dependency-cache-{{ checksum "package-lock.json" }}
+        - run:
+            name: Install Dependencies
+            command: npm install
         - save_cache:
-          key: dependency-cache-{{ checksum "package-lock.json" }}
-          paths:
+            key: dependency-cache-{{ checksum "package-lock.json" }}
+            paths:
             - ./node_modules
-                - run:
-                  name: Build
-                  command: npm build
-                - run:
-                  name: Firebase Deploy
-                  command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN" --only hosting
+        - run:
+            name: Build
+            command: npm build
+        - run:
+            name: Firebase Deploy
+            command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN" --only hosting
 

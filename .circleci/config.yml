@@ -4,8 +4,8 @@ jobs:
         docker:
             - image: circleci/node:10.16.0
         working_directory: ~/repo
-        - checkout 
         steps:
+        - checkout 
         - restore_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
             - run:

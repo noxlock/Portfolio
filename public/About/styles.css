@@ -68,6 +68,9 @@ article {
 
 }
 
+.figure {
+    max-width: 1%;
+}
 
 /* FOOTER CSS */
 

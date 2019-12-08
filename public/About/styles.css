@@ -62,7 +62,7 @@ article {
 
 /* ICON CSS */
 
-.fa {
+.fa, .fab {
     font-size: 30px;
     color: white;
 

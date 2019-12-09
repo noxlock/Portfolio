@@ -55,12 +55,11 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    /* border-bottom: 1px solid #47748b; */
 }
 
 #sidebar ul p {
@@ -139,3 +138,13 @@ h3 {
 p {
     font-family: 'Cabin', serif;
 }
+
+.card {
+    background-color: #171717;
+    color: white;
+}
+
+.card-subtitle {
+    font-size: 18px;
+}
+

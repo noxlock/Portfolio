@@ -46,7 +46,7 @@ li {
     min-width: 15em;
     /* min-height: 00%; */
     position: sticky;
-    background: #666666;
+    background-color: #3D4043;
     color: #fff;
     transition: all 0.3s;
     /* padding-right: 2em */
@@ -83,7 +83,6 @@ a, a:hover, a:focus {
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #3D4043;
 }
 
 ul ul a {
@@ -164,7 +163,7 @@ p {
 }
 
 .card-link {
-    font-size: 1.2em;
+    font-size: 1.2  em;
 }
 
 

@@ -32,19 +32,24 @@ li {
 
 /* SIDEBAR CSS */
 
-.wrapper {
+.side-wrapper {
     display: flex;
+    position: absolute;
+    height: 100%;
+    z-index: 9999;
     align-items: stretch;
+
+
 }
 
 #sidebar {
-    min-width: 250px;
-    max-width: 250px;
-    min-height: 100vh;
-    position: fixed;
+    min-width: 15em;
+    /* min-height: 00%; */
+    position: sticky;
     background: #666666;
     color: #fff;
     transition: all 0.3s;
+    /* padding-right: 2em */
 }
 
 a, a:hover, a:focus {
@@ -78,12 +83,16 @@ a, a:hover, a:focus {
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #a9a9a9;
+    background: #3D4043;
 }
+
 ul ul a {
-    font-size: 0.9em !important;
+    font-size: 1em !important;
     padding-left: 30px !important;
-    background: #a9a9a9;
+}
+
+ul li ul li {
+    background-color: #313436;
 }
 
 
@@ -93,7 +102,7 @@ ul ul a {
 footer {
     text-align: center;
     height: 9vh;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
@@ -135,8 +144,14 @@ h2 {
 h3 {
     font-size: 24px;
 }
+
+h4 {
+    font-size: 1.75em;
+}
+
 p {
     font-family: 'Cabin', serif;
+    font-size: 1.2em;
 }
 
 .card {
@@ -145,6 +160,14 @@ p {
 }
 
 .card-subtitle {
-    font-size: 18px;
+    font-size: 1.4em;
 }
 
+.card-link {
+    font-size: 1.2em;
+}
+
+
+.list-unstyled a {
+    background-color: #313436;
+}

@@ -82,18 +82,44 @@
             </div>
 
                 <div id="content">
-                    <h2>FrameInstructor</h2>
-                        <h3> <a target="blank" href="https://github.com/noxlock/FrameInstructor">Git Repo</a></h3>
+                    <h2>Nomad</h2>
+                        <h3> <a target="blank" href="https://github.com/noxlock/Nomad">Git Repo</a></h3>
                         <p>
                         </br>
-                            FrameInstructor is a Python application that uses Discord, instead of the CLI as a front-end to accept user input.
-                            The program does this through the 'discord' Python package, and is hosted on heroku. The application is integrated into Discord
-                            in the form of a chat bot, listening for commands in the given chat room, and fetching data from an API depending on what input was supplied.
+                            Nomad is a MERN stack app, meaning it uses the following technologies:
+                            <br/>
+                            <br/>
+                            MySQL (Postgres)
+                            <br/>
+                            Express
+                            <br/>
+                            React
+                            <br/>
+                            Node
                         </p>
                         </br>
                         <p>
-                            The data fetched from the API is related to specific moves in the online fighting game Tekken 7, the data included provides information on things like how much damage the move does,
-                            what type of status it inflicts after it hits an opponent, ect.
+                            The SQL database is in PostGres, and is hosted on Heroku along with the app.
+                        <br/>
+                        <br/>
+                            All of the API routes are written in Express, and the front-end constantly makes requests to it. 
+                            API routes exist to generate a random word, save a word, and retrieve saved words.
+                        <br/>
+                        <br/>
+                            The front-end is done with React. This project was my first time using it, along with MaterialUI for any UI components.
+                        <br/>    
+                            I found certain parts of React really annoying, like 'the rules of hooks', and having to pass props around to components. 
+                        <br/>    
+                            The rules of hooks was primarily annoying because I had to invoke an auth0 hook to retrieve the user's email, which I did a lot. I couldn't do this within class components though, otherwise it'd get upset.
+                        <br/>
+                            For my next project, I definitely want to try Angular.
+                        <br/>
+                        <br/>
+                            Node is used for the rest of the back-end tasks, that don't involve Express routes. This includes making requests to other APIs, such as the Google Cloud Translate API, and a Definition API, to provide more information for words.
+                        </p>
+                        <br/>
+                        <p>
+                            I struggled a lot with motivation during the development of this project, which I think was primarily due to COVID forcing me to take on this project at home. I enjoy making time for development, at this point, I have finished study and have no job, so there is no time to make, all time is free time, which makes it seem less appealing.
                         </p>
                     </div>
                 </div>

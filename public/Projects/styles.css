@@ -156,6 +156,7 @@ p {
 .card {
     background-color: #171717;
     color: white;
+    min-height: 15em;
 }
 
 .card-subtitle {

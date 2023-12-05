@@ -18,9 +18,9 @@ jobs:
             key: dependency-cache-{{ checksum "package-lock.json" }}
             paths:
             - ./node_modules
-        - run:
-            name: Build
-            command: npm build
+        # - run:
+        #     name: Build
+        #     command: npm build
         - run:
             name: Firebase Deploy
             command: |

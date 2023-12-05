@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/noxlock/Portfolio#readme",
   "dependencies": {
-    "firebase": "^7.5.0"
+    "firebase": "^10.7.0"
   },
   "devDependencies": {
-    "firebase-tools": "^11.15.0"
+    "firebase-tools": "^12.9.1"
   }
 }

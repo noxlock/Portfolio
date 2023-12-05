@@ -25,5 +25,5 @@ jobs:
             name: Firebase Deploy
             command: |
               echo $FIREBASE_KEY > credentials.json
-              GOOGLE_APPLICATION_CREDENTIALS=credentials.json firebase deploy
+              GOOGLE_APPLICATION_CREDENTIALS=credentials.json ./node_modules/.bin/firebase deploy
 
